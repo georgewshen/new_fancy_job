@@ -7,14 +7,14 @@ A simple Python script that automatically increments a number in a text file and
 1. Clone this repository:
 
 ```bash
-git clone https://github.com/georgewshen/fancy_job
-cd fancy_job
+git clone https://github.com/georgewshen/new_fancy_job
+cd new_fancy_job
 ```
 
 2. Run the script:
 
 ```bash
-python update_number.py
+python3 update_number.py
 ```
 
 3. Setup a cron job to run the script daily:
@@ -26,7 +26,7 @@ crontab -e
 Add the following line to the crontab file:
 
 ```bash
-0 6 * * * cd /path/to/your/repo && python update_number.py
+0 6 * * * cd /path/to/your/repo && python3 update_number.py
 ```
 
 This will run the script at 6am every day.
