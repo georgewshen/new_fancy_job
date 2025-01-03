@@ -7,7 +7,7 @@ A simple Python script that automatically increments a number in a text file and
 1. Clone this repository:
 
 ```bash
-git clone https://github.com/Shogun89/fancy_job
+git clone https://github.com/georgewshen/fancy_job
 cd fancy_job
 ```
 
